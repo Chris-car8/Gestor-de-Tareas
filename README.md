@@ -1,5 +1,4 @@
-# Gestor-de-Tareas
-# se crean las estructuras 
+
 tareas = []
 historial = []
 tareasUrgentes = []
@@ -9,7 +8,6 @@ arbolTareas= {
         "backend":["API loging","Gestion DB"]
     }
 }
-# se crean las funciones
 def agregarTarea():
     tarea = input ("ingrese tarea nueva: ")
     tareas.append(tarea)
